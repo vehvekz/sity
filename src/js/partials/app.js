@@ -5,7 +5,6 @@
 			this.setUpListeners(); // events listeners
 			this.eventsGallery(); // events adaptive slider
 			this.menuMobile();
-			this.masonryShops();
 		},
 
 		setUpListeners: function () {
@@ -103,15 +102,6 @@
 					});
 				};
 			}
-		},
-
-		masonryShops: function () {
-			$('.shops-wrap').masonry({
-				itemSelector: '.shops-item',
-				columnWidth: '.grid-sizer',
-				percentPosition: true,
-				gutter: '.gutter-sizer'
-			});
 		}
 
 	}
